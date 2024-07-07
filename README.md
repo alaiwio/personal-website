@@ -6,58 +6,73 @@
     <title>Osama Al Eiwi - Digital Content Creator & Business Pioneer</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #F5F5F5;
-            color: #333;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #121212;
+            color: #E0E0E0;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #2C3E50;
-            color: white;
-            padding: 20px 0;
+            background-color: #1F1B24;
+            color: #BB86FC;
+            padding: 40px 0;
             text-align: center;
+            border-bottom: 1px solid #BB86FC;
         }
         .container {
             width: 80%;
             margin: 0 auto;
-            padding: 20px 0;
+            padding: 40px 0;
         }
         .intro {
-            background-color: #ECF0F1;
-            padding: 20px;
-            border-radius: 10px;
+            background-color: #1F1B24;
+            padding: 30px;
+            border-radius: 15px;
             text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         }
         .projects, .contact {
-            margin: 20px 0;
+            margin: 40px 0;
         }
         h2 {
-            color: #2980B9;
+            color: #BB86FC;
+            border-bottom: 1px solid #BB86FC;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
         }
         .projects ul {
             list-style-type: none;
             padding: 0;
         }
         .projects li {
-            background-color: #FFF;
-            margin: 10px 0;
-            padding: 15px;
+            background-color: #2C2C2C;
+            margin: 15px 0;
+            padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         }
         .contact a {
             display: block;
-            color: #2980B9;
+            color: #BB86FC;
             text-decoration: none;
-            margin: 5px 0;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #2C2C2C;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .contact a:hover {
+            background-color: #BB86FC;
+            color: #1F1B24;
         }
         footer {
-            background-color: #2C3E50;
-            color: white;
+            background-color: #1F1B24;
+            color: #BB86FC;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
+            padding: 20px 0;
+            border-top: 1px solid #BB86FC;
+            position: relative;
             width: 100%;
             bottom: 0;
         }
@@ -83,7 +98,7 @@
         <section class="contact">
             <h2>Contact Me</h2>
             <a href="https://www.facebook.com/profile.php?id=100013017546652&mibextid=ZbWKwL" target="_blank">Facebook</a>
-            <a href="https://www.instagram.com/aiwi123osama?igsh=YzljYTk1ODg3Zg==" target="_blank">Instagram</a>
+            <a href="https://www.instagram.com/aiwi123osama?igshid=YzljYTk1ODg3Zg==" target="_blank">Instagram</a>
             <a href="https://wa.me/+601161213171" target="_blank">WhatsApp</a>
         </section>
     </div>
