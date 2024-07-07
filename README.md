@@ -9,33 +9,32 @@
 
         body {
             font-family: 'Roboto', sans-serif;
-            background: linear-gradient(135deg, #434343 0%, #000000 100%);
+            background-color: #1C1C1C;
             color: #E0E0E0;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background: linear-gradient(135deg, #b8a9c9, #f2e6ff);
-            color: #ffffff;
-            padding: 40px 0;
+            background: linear-gradient(to right, #b8a9c9, #d4af37);
+            color: #fff;
+            padding: 20px 0;
             text-align: center;
-            border-bottom: 3px solid #b8a9c9;
         }
 
         .container {
             width: 80%;
             margin: 0 auto;
-            padding: 40px 0;
+            padding: 20px 0;
         }
 
         .intro {
-            background-color: #2C2C2C;
-            padding: 30px;
+            background-color: #2c2c2c;
+            padding: 20px;
             border-radius: 15px;
             text-align: center;
-            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
-            color: #FFFFFF;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
         }
 
         .projects, .contact {
@@ -43,8 +42,8 @@
         }
 
         h2 {
-            color: #D4AF37;
-            border-bottom: 2px solid #D4AF37;
+            color: #d4af37;
+            border-bottom: 1px solid #d4af37;
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
@@ -55,66 +54,58 @@
         }
 
         .projects li {
-            background-color: #3C3C3C;
+            background-color: #3c3c3c;
             margin: 15px 0;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
-            color: #E0E0E0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         }
 
         .contact a {
             display: block;
-            color: #D4AF37;
+            color: #d4af37;
             text-decoration: none;
             margin: 10px 0;
             padding: 10px;
-            background-color: #3C3C3C;
+            background-color: #3c3c3c;
             border-radius: 10px;
             text-align: center;
-            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
             transition: background-color 0.3s, color 0.3s;
         }
 
         .contact a:hover {
-            background-color: #D4AF37;
-            color: #1C1C1C;
+            background-color: #d4af37;
+            color: #1c1c1c;
         }
 
         footer {
-            background: linear-gradient(135deg, #b8a9c9, #f2e6ff);
-            color: #ffffff;
+            background: linear-gradient(to right, #b8a9c9, #d4af37);
+            color: #fff;
             text-align: center;
-            padding: 20px 0;
-            border-top: 3px solid #b8a9c9;
+            padding: 10px 0;
         }
 
         .social-icons {
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 15px;
             margin-top: 20px;
         }
 
         .social-icons a {
-            color: #D4AF37;
+            color: #d4af37;
             font-size: 24px;
             transition: color 0.3s;
         }
 
         .social-icons a:hover {
-            color: #FFFFFF;
+            color: #fff;
         }
 
         .logo {
             font-size: 36px;
             font-weight: bold;
-            color: #b8a9c9;
-        }
-
-        .subheader {
-            font-size: 24px;
-            color: #f2e6ff;
         }
     </style>
     <!-- Font Awesome for social media icons -->
@@ -123,7 +114,7 @@
 <body>
     <header>
         <div class="logo">Osama Al Eiwi</div>
-        <p class="subheader">Digital Content Creator & Business Pioneer</p>
+        <p>Digital Content Creator & Business Pioneer</p>
     </header>
     <div class="container">
         <section class="intro">
