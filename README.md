@@ -9,18 +9,18 @@
 
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #1C1C1C;
+            background: linear-gradient(135deg, #434343 0%, #000000 100%);
             color: #E0E0E0;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #333333;
-            color: #D4AF37; /* Gold color */
+            background: linear-gradient(135deg, #b8a9c9, #f2e6ff);
+            color: #ffffff;
             padding: 40px 0;
             text-align: center;
-            border-bottom: 1px solid #D4AF37;
+            border-bottom: 3px solid #b8a9c9;
         }
 
         .container {
@@ -30,11 +30,11 @@
         }
 
         .intro {
-            background-color: #333333;
+            background-color: #2C2C2C;
             padding: 30px;
             border-radius: 15px;
             text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
             color: #FFFFFF;
         }
 
@@ -44,7 +44,7 @@
 
         h2 {
             color: #D4AF37;
-            border-bottom: 1px solid #D4AF37;
+            border-bottom: 2px solid #D4AF37;
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
@@ -55,11 +55,11 @@
         }
 
         .projects li {
-            background-color: #2C2C2C;
+            background-color: #3C3C3C;
             margin: 15px 0;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
             color: #E0E0E0;
         }
 
@@ -69,10 +69,10 @@
             text-decoration: none;
             margin: 10px 0;
             padding: 10px;
-            background-color: #2C2C2C;
+            background-color: #3C3C3C;
             border-radius: 10px;
             text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
             transition: background-color 0.3s, color 0.3s;
         }
 
@@ -82,14 +82,11 @@
         }
 
         footer {
-            background-color: #333333;
-            color: #D4AF37;
+            background: linear-gradient(135deg, #b8a9c9, #f2e6ff);
+            color: #ffffff;
             text-align: center;
             padding: 20px 0;
-            border-top: 1px solid #D4AF37;
-            position: relative;
-            width: 100%;
-            bottom: 0;
+            border-top: 3px solid #b8a9c9;
         }
 
         .social-icons {
@@ -110,9 +107,14 @@
         }
 
         .logo {
-            font-size: 24px;
+            font-size: 36px;
             font-weight: bold;
-            color: #D4AF37;
+            color: #b8a9c9;
+        }
+
+        .subheader {
+            font-size: 24px;
+            color: #f2e6ff;
         }
     </style>
     <!-- Font Awesome for social media icons -->
@@ -121,7 +123,7 @@
 <body>
     <header>
         <div class="logo">Osama Al Eiwi</div>
-        <p>Digital Content Creator & Business Pioneer</p>
+        <p class="subheader">Digital Content Creator & Business Pioneer</p>
     </header>
     <div class="container">
         <section class="intro">
