@@ -1,79 +1,94 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>أسامة العيوي - الصفحة الشخصية</title>
+    <title>Osama Al Eiwi - Digital Content Creator & Business Pioneer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            background-color: #F5F5F5;
             color: #333;
             margin: 0;
             padding: 0;
         }
-        .header {
-            background-color: #663399; /* اللون البنفسجي */
+        header {
+            background-color: #2C3E50;
             color: white;
-            padding: 20px;
+            padding: 20px 0;
             text-align: center;
         }
-        .main {
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .intro {
+            background-color: #ECF0F1;
             padding: 20px;
+            border-radius: 10px;
+            text-align: center;
         }
-        .section {
-            margin-bottom: 20px;
+        .projects, .contact {
+            margin: 20px 0;
         }
-        .footer {
-            background-color: #228B22; /* اللون الأخضر */
+        h2 {
+            color: #2980B9;
+        }
+        .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .projects li {
+            background-color: #FFF;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact a {
+            display: block;
+            color: #2980B9;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+        footer {
+            background-color: #2C3E50;
             color: white;
             text-align: center;
-            padding: 10px;
+            padding: 10px 0;
             position: fixed;
             width: 100%;
             bottom: 0;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
     </style>
 </head>
 <body>
-
-<div class="header">
-    <h1>أسامة العيوي</h1>
-    <p>منشئ محتوى رقمي ورائد في مجال الأعمال</p>
-</div>
-
-<div class="main container">
-    <div class="section">
-        <h2>نبذة عني</h2>
-        <p>مرحبًا! أنا أسامة العيوي، منشئ محتوى رقمي ورائد في مجال الأعمال. أعمل على تقديم محتوى مبتكر ومفيد لمتابعيني.</p>
-    </div>
-    <div class="section">
-        <h2>مشاريعي</h2>
-        <p>هنا يمكن أن تدرج وصفًا لمشاريعك الرئيسية، سواء كانت متعلقة بإنشاء المحتوى الرقمي أو الأعمال التجارية.</p>
-    </div>
-    <div class="section">
-        <h2>الهوايات</h2>
-        <p>في وقت الفراغ، أحب القراءة والكتابة والعمل على تطوير مهاراتي في مجالات مختلفة.</p>
-    </div>
-    <div class="section">
-        <h2>روابط اجتماعية</h2>
-        <p>تواصل معي على وسائل التواصل الاجتماعي:
+    <header>
+        <h1>Osama Al Eiwi</h1>
+        <p>Digital Content Creator & Business Pioneer</p>
+    </header>
+    <div class="container">
+        <section class="intro">
+            <p>Welcome to my personal website. I am a digital content creator and business pioneer, passionate about creating impactful content and driving innovative business solutions.</p>
+        </section>
+        <section class="projects">
+            <h2>My Projects</h2>
             <ul>
-                <li><a href="#">فيسبوك</a></li>
-                <li><a href="#">تويتر</a></li>
-                <li><a href="#">لينكد إن</a></li>
+                <li>Project 1: Description of project 1...</li>
+                <li>Project 2: Description of project 2...</li>
+                <li>Project 3: Description of project 3...</li>
             </ul>
-        </p>
+        </section>
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <a href="https://www.facebook.com/profile.php?id=100013017546652&mibextid=ZbWKwL" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/aiwi123osama?igsh=YzljYTk1ODg3Zg==" target="_blank">Instagram</a>
+            <a href="https://wa.me/+601161213171" target="_blank">WhatsApp</a>
+        </section>
     </div>
-</div>
-
-<div class="footer">
-    <p>&copy; 2024 أسامة العيوي. جميع الحقوق محفوظة.</p>
-</div>
-
+    <footer>
+        <p>&copy; 2024 Osama Al Eiwi. All rights reserved.</p>
+    </footer>
 </body>
 </html>
